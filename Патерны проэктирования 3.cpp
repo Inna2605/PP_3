@@ -60,12 +60,23 @@ int main()
     Continent* Earth = new Africa();
     Herbivore* H_animal = new Wildebeest();
     Carnivore* C_animal = new Lion();
-    AnimalWorld* World;
+    AnimalWorld* World = new AnimalWorld();
     World->MealsHerbivores(H_animal);
     World->NutritionCarnivores(C_animal, H_animal);
     delete Earth;
+    delete H_animal;
+    delete C_animal;
+    delete World;
+
+    cout << endl << endl;
 
     Earth = new NorthAmerica();
+    H_animal = new Bison();
+    C_animal = new Wolf();
+    World = new AnimalWorld();
+    World->MealsHerbivores(H_animal);
+    World->NutritionCarnivores(C_animal, H_animal);
     delete Earth;
-
+    delete C_animal;
+    delete World;
 }

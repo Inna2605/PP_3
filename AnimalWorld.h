@@ -2,7 +2,7 @@
 #include"Herbivore.h"
 #include"Carnivore.h"
 
-class AnimalWorld:public Herbivore, Carnivore
+class AnimalWorld
 {
 public:
 	void MealsHerbivores(Herbivore* H_animal);
