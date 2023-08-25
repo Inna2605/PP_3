@@ -51,6 +51,9 @@ o Питание плотоядных(Nutrition carnivores) - метод кли�
 #include"Lion.h"
 #include"Wildebeest.h"
 #include"Wolf.h"
+#include"Eurasia.h"
+#include"Elk.h"
+#include"Tiger.h"
 using namespace std;
 
 int main()
@@ -73,6 +76,18 @@ int main()
     Earth = new NorthAmerica();
     H_animal = new Bison();
     C_animal = new Wolf();
+    World = new AnimalWorld();
+    World->MealsHerbivores(H_animal);
+    World->NutritionCarnivores(C_animal, H_animal);
+    delete Earth;
+    delete C_animal;
+    delete World;
+
+    cout << endl << endl;
+
+    Earth = new Eurasia();
+    H_animal = new Elk();
+    C_animal = new Tiger();
     World = new AnimalWorld();
     World->MealsHerbivores(H_animal);
     World->NutritionCarnivores(C_animal, H_animal);

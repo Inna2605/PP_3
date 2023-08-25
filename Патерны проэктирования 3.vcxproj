@@ -144,11 +144,14 @@
     <ClCompile Include="Bison.cpp" />
     <ClCompile Include="Carnivore.cpp" />
     <ClCompile Include="Continent.cpp" />
+    <ClCompile Include="Elk.cpp" />
+    <ClCompile Include="Eurasia.cpp" />
     <ClCompile Include="Herbivore.cpp" />
     <ClCompile Include="Lion.cpp" />
     <ClCompile Include="NorthAmerica.cpp" />
     <ClCompile Include="NotPredator.cpp" />
     <ClCompile Include="Predator.cpp" />
+    <ClCompile Include="Tiger.cpp" />
     <ClCompile Include="Wildebeest.cpp" />
     <ClCompile Include="Wolf.cpp" />
     <ClCompile Include="Патерны проэктирования 3.cpp" />
@@ -159,11 +162,14 @@
     <ClInclude Include="Bison.h" />
     <ClInclude Include="Carnivore.h" />
     <ClInclude Include="Continent.h" />
+    <ClInclude Include="Elk.h" />
+    <ClInclude Include="Eurasia.h" />
     <ClInclude Include="Herbivore.h" />
     <ClInclude Include="Lion.h" />
     <ClInclude Include="NorthAmerica.h" />
     <ClInclude Include="NotPredator.h" />
     <ClInclude Include="Predator.h" />
+    <ClInclude Include="Tiger.h" />
     <ClInclude Include="Wildebeest.h" />
     <ClInclude Include="Wolf.h" />
   </ItemGroup>
